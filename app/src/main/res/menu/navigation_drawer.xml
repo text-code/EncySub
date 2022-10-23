@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/main_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ore"
+            android:icon="@drawable/ic_ore_24dp"
+            android:title="@string/ore"/>
+        <item
+            android:id="@+id/plant"
+            android:icon="@drawable/ic_plant_24dp"
+            android:title="@string/plant"/>
+    </group>
+</menu>
